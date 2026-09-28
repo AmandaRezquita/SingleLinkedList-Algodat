@@ -6,8 +6,8 @@ public class MainOllivandersShop {
         Scanner input = new Scanner(System.in);
         int choice = 0;
 
-        shopInventory.addMagicItem("W01", "Elder Wand (Phoenix Feather)", "Wand", 35.0, 3);
-        shopInventory.addMagicItem("P01", "Felix Felicis (Liquid Luck)", "Potion", 12.5, 5);
+        shopInventory.addMagicItem("W01", "Elder Wand", "Wand", 35.0, 3);
+        shopInventory.addMagicItem("P01", "Felix Felicis", "Potion", 12.5, 5);
         shopInventory.addMagicItem("B01", "Nimbus 2000 Broomstick", "Broom", 50.0, 2);
 
         do{
